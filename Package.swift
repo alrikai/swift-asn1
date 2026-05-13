@@ -48,7 +48,8 @@ let package = Package(
             dependencies: ["SwiftASN1"],
             swiftSettings: strictConcurrencySettings
         ),
-    ]
+    ],
+    swiftLanguageModes: [.v5]
 )
 
 // ---    STANDARD CROSS-REPO SETTINGS DO NOT EDIT   --- //
